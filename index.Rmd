@@ -1,6 +1,9 @@
 ---
 title: "mkrygin.github.io"
-output: html_document
+output:
+  html_document: 
+    toc: true
+    toc_float: true
 ---
 
 ### I have a webpage!z
