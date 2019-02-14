@@ -1,29 +1,25 @@
 ---
-title: "mkrygin.github.io"
+title: "Marina Krygin"
 output:
   html_document: 
     toc: true
     toc_float: true
+    includes:
+      in_header: header.html
+    
+    
 ---
 
-### I have a webpage!z
+### About Me 
 
-And I can put all kinds of stuff on it!
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
----
-title: "About"
----
 
-### About this site
+## White Paper
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
-
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
-```
-
-## R Markdown
+[![Wellth White Paper](images/wellth_preview.png)](./wellth_white_paper.pdf)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -43,7 +39,5 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-## Wellth White Paper
 
-[![Wellth White Paper](images/wellth_preview.png)](./wellth_white_paper.pdf)
 
