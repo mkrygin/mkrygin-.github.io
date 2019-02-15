@@ -1,14 +1,16 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Marina Krygin"
   right:
-    - text: "Portfolio"
-      href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:m.krygin@columbia.edu
     - icon: fa-github fa-lg
       href: https://github.com/mkrygin/mkrygin.github.io
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/marinakrygin/
+    
 output:
   html_document:
-    theme: flatly
+    theme: sandstone
+    fig_caption: yes
