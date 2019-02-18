@@ -28,18 +28,18 @@ Hi, I'm Marina! I'm interested in discovering innovative ways to answer the foll
 This paper looks at the intersection of digital health and evolving healthcare reimbursement models with a focus on medication adherence. I wrote it this summer while working for a digital health start-up called Wellth.
 
 <center>
-[![Wellth White Paper](images/wellth_preview.png)](./wellth_white_paper.pdf)
+[![Wellth White Paper](images/wellth_preview.png)](./white_paper_final.pdf)
 </center>
 
 ---
 ## Health Services Project
 
-This is a project I worked on during the second year of my MPH.Using publicly available 2015 Medicare Provider and Payment Utilization data, I performed an analysis with an attempt to understand what, if any, relationship exists between geographic location and ophthalmology service utilization. From the GIS map, you can see the number of distinct Medicare beneficiary/per day ophthalmology services by ZIP code. I chose this metric as a proxy for ophthalmology use by Medicare beneficiaries in NYC since this metric removes double-counting from the line service count (identifying whether or not a unique service actually occurred). The darker the color, the lower the utilization was in that geographic location. Areas that fall within the color assigned to the 0-649 category represent the fewest number of unique ophthalmology services used by Medicare beneficiaries in 2015.
+This is a project I worked on during the second year of my MPH.Using publicly available 2015 Medicare Provider and Payment Utilization data, I performed an analysis with an attempt to understand what, if any, relationship exists between geographic location and ophthalmology service utilization within New York City. From the GIS map, you can see the number of distinct Medicare beneficiary/per day ophthalmology services by ZIP code in NYC. I chose this metric as a proxy for ophthalmology use by Medicare beneficiaries since it removes double-counting from the line service count (identifying whether or not a unique service actually occurred). The darker the color, the lower the utilization was in that geographic location. Areas that fall within the color assigned to the 0-649 category represent the fewest number of unique ophthalmology services used by Medicare beneficiaries in 2015.
 
 <center>
 ![](images/nyc.png)
 </center>
-In addition to looking at ophthalmology service utilization by Zip code, I was also interested in comparing these results to average diabetes rates across NYC. Having diabetes greatly increases the risk of developing various eye conditions, in some instances leading to blindness. The table below illustrates four Zip codes from the 0-649 category with the highest rates of diabetes. The neighborhoods identified below are potentially areas where ophthalmology interventions, such as mobile clinics that provide eye screening services, would provide the greatest benefit.
+In addition to looking at ophthalmology service utilization by Zip code, interested in comparing these results to average diabetes rates across NYC. Having diabetes greatly increases the risk of developing various eye conditions, in some instances leading to blindness. The table below illustrates four Zip codes from the 0-649 category with the highest rates of diabetes. The neighborhoods identified below are potentially areas where ophthalmology interventions, such as mobile clinics that provide eye screening services, would provide the greatest benefit.
 <br/>
 <br/>
 <center>
@@ -48,6 +48,11 @@ In addition to looking at ophthalmology service utilization by Zip code, I was a
 <br/>
 
 The analysis for this project was done in Python using Jupyter notebook. The map was generated using QGIS version 3.4. The data for the analysis included [Medicare data](https://data.cms.gov/Medicare-Physician-Supplier/Medicare-Provider-Utilization-and-Payment-Data-Phy/sk9b-znav), [NYC Health Status data](https://www1.nyc.gov/site/doh/data/health-tools/neighborhood-statistics-health-status.page), [NYC Zip Code definitions](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm), and the following shapefile from [NYU](https://geo.nyu.edu/catalog/nyu-2451-34509). Please reach out to me with any questions about the analysis and I'll be happy to connect!
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 ## About This Site
